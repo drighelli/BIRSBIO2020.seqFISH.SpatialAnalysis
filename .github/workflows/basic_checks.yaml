@@ -38,6 +38,8 @@ jobs:
         run: |
           options(repos = c(CRAN = "https://cran.r-project.org"))
           BiocManager::repositories()
+          install_github("drighelli/SpatialExperiment", ref="BIRSBIO20_seqFISH")
+          install_github("drighelli/SingleCellMultiModal", ref="BIRSBIO20_seqFISH")
           remotes::install_deps(dependencies = TRUE, repos = BiocManager::repositories())
           remotes::install_cran("rcmdcheck")
         shell: Rscript {0}
