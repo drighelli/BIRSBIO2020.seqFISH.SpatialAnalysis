@@ -27,9 +27,9 @@ jobs:
           RHUB_PLATFORM: linux-x86_64-ubuntu-gcc
         run: |
           sudo apt-get update -y
-          apt-get -y remove libcurl4-openssl-dev
           apt-get -y install libcurl4-gnutls-dev
           apt-get -y install libgit2-dev
+          apt-get -y remove libcurl4-openssl-dev
           Rscript -e "remotes::install_github('r-hub/sysreqs')"
           sysreqs=$(Rscript -e "cat(sysreqs::sysreq_commands('DESCRIPTION'))")
           sudo -s eval "$sysreqs"
