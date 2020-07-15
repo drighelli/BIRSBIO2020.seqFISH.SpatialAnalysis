@@ -21,7 +21,7 @@ This class inherits from the popular Bioconductor class `SingleCellExperiment`
 and extend it with specific slots and get/set methods for spatial data.
 
 Here is a schematics of the organization of the `SpatialExperiment` class.
-![SpatialExperiment](https://github.com/drighelli/BIRSBIO2020.seqFISH.SpatialAnalysis/raw/master/inst/images/SpatialExperimentScheme.png)
+![The SpatialExperiment class representation](https://github.com/drighelli/BIRSBIO2020.seqFISH.SpatialAnalysis/raw/master/inst/images/SpatialExperimentScheme.png)
 
 # Installation
 
@@ -58,7 +58,7 @@ to facilitate the accessibility for further use.
 Here we show a schematic of how the dataset is organized once downloading it 
 with the `seqFISH` function, as illustrated in the next steps.
 
-![seqFISH_Dataset_Schematic](https://github.com/drighelli/BIRSBIO2020.seqFISH.SpatialAnalysis/raw/master/inst/images/scMultiModal_seqFISH.png)
+![The seqFISH dataset organization in the SingleCellMultiModal package](https://github.com/drighelli/BIRSBIO2020.seqFISH.SpatialAnalysis/raw/master/inst/images/scMultiModal_seqFISH.png)
 
 ## Downloading datasets
 
