@@ -25,8 +25,7 @@ Suggests:
     rmarkdown,
     pkgdown
 remotes: 
-    drighelli/SpatialExperiment,
-    
+    drighelli/SpatialExperiment
 URL: https://github.com/drighelli/BIRSBIO2020.seqFISH.SpatialAnalysis
 BugReports: https://github.com/drighelli/BIRSBIO2020.seqFISH.SpatialAnalysis/issues/new/choose
 VignetteBuilder: knitr
