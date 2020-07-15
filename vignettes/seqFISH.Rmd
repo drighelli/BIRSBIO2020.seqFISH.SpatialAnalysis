@@ -13,14 +13,22 @@ editor_options:
   chunk_output_type: console
 ---
 
+# Description
+
+To facilitate the implementation of methodologies and the spatial data handling
+in R, we designed a new class named `SpatialExperiment`.
+This class inherits from the popular Bioconductor class `SingleCellExperiment`
+and extend it with specific slots and get/set methods for spatial data.
+
+Here is a schematics of the organization of the `SpatialExperiment` class.
+!(SpatialExperiment)[https://github.com/drighelli/BIRSBIO2020.seqFISH.SpatialAnalysis/raw/master/inst/images/SpatialExperimentScheme.png]
+
 # Installation
 
 ```{r,eval=TRUE}
-
 library(devtools)
 install_github("drighelli/SpatialExperiment", ref="BIRSBIO20_seqFISH")
 install_github("drighelli/SingleCellMultiModal", ref="BIRSBIO20_seqFISH")
-
 ```
 
 
@@ -41,6 +49,16 @@ library(SingleCellMultiModal)
 The dataset consists of two data types,
 seq-FISH data was provided by @Zhu2018identification, while scRNA-seq data
 was provided by @Tasic2016adult.
+
+## Stored organization
+
+We stored the seqFISH data into the Bioconductor SingleCellMultiModal package
+to facilitate the accessibility for further use.
+
+Here we show a schematic of how the dataset is organized once downloading it 
+with the `seqFISH` function, as illustrated in the next steps.
+
+![seqFISH_Dataset_Schematic](https://github.com/drighelli/BIRSBIO2020.seqFISH.SpatialAnalysis/raw/master/inst/images/scMultiModal_seqFISH.png)
 
 ## Downloading datasets
 
