@@ -25,7 +25,7 @@ Here is a schematics of the organization of the `SpatialExperiment` class.
 
 # Installation
 
-```{r,eval=TRUE}
+```{r, eval=TRUE, message=FALSE}
 library(devtools)
 install_github("drighelli/SpatialExperiment", ref="BIRSBIO20_seqFISH")
 install_github("drighelli/SingleCellMultiModal", ref="BIRSBIO20_seqFISH")
