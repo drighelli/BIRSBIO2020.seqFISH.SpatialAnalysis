@@ -21,7 +21,7 @@ This class inherits from the popular Bioconductor class `SingleCellExperiment`
 and extend it with specific slots and get/set methods for spatial data.
 
 Here is a schematics of the organization of the `SpatialExperiment` class.
-!(SpatialExperiment)[https://github.com/drighelli/BIRSBIO2020.seqFISH.SpatialAnalysis/raw/master/inst/images/SpatialExperimentScheme.png]
+![SpatialExperiment](https://github.com/drighelli/BIRSBIO2020.seqFISH.SpatialAnalysis/raw/master/inst/images/SpatialExperimentScheme.png)
 
 # Installation
 
