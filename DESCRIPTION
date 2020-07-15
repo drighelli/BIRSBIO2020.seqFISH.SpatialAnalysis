@@ -26,7 +26,7 @@ Suggests:
     pkgdown
 remotes: 
     drighelli/SpatialExperiment,
-    drighelli/SingleCellMultiModal
+    
 URL: https://github.com/drighelli/BIRSBIO2020.seqFISH.SpatialAnalysis
 BugReports: https://github.com/drighelli/BIRSBIO2020.seqFISH.SpatialAnalysis/issues/new/choose
 VignetteBuilder: knitr
