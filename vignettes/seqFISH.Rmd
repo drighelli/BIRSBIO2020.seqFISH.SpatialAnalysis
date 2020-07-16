@@ -25,7 +25,7 @@ Here is a schematics of the organization of the `SpatialExperiment` class.
 
 # Installation
 
-```{r, eval=TRUE, message=FALSE}
+```{r, eval=TRUE, message=FALSE, warning=FALSE}
 library(devtools)
 install_github("drighelli/SpatialExperiment", ref="BIRSBIO20_seqFISH")
 install_github("drighelli/SingleCellMultiModal", ref="BIRSBIO20_seqFISH")
@@ -47,7 +47,7 @@ library(SingleCellMultiModal)
 # seq-FISH data
 
 The dataset consists of two data types,
-seq-FISH data was provided by @Zhu2018identification, while scRNA-seq data
+seqFISH and scRNA-seq data
 was provided by @Tasic2016adult.
 
 ## Stored organization
