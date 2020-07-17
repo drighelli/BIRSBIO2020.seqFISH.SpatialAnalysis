@@ -43,6 +43,7 @@ jobs:
           BiocManager::install(local_deps[local_deps %in% deps$package[deps$diff != 0]], update=TRUE, ask=FALSE)
           
         shell: Rscript {0}
+        
       - uses: docker/build-push-action@v1
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
