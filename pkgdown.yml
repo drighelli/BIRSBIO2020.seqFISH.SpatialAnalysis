@@ -2,8 +2,8 @@ pandoc: 2.7.3
 pkgdown: 1.5.1
 pkgdown_sha: ~
 articles: []
-last_built: 2020-07-17T10:08Z
+last_built: 2020-07-17T16:15Z
 urls:
-  reference: https://seandavi.github.io/sars2pack/reference
-  article: https://seandavi.github.io/sars2pack/articles
+  reference: https://drighelli.github.io/BIRSBIO2020.seqFISH.SpatialAnalysis/reference
+  article: https://drighelli.github.io/BIRSBIO2020.seqFISH.SpatialAnalysis/articles
 
