@@ -30,4 +30,4 @@ remotes:
 URL: https://github.com/drighelli/BIRSBIO2020.seqFISH.SpatialAnalysis
 BugReports: https://github.com/drighelli/BIRSBIO2020.seqFISH.SpatialAnalysis/issues/new/choose
 VignetteBuilder: knitr
-DockerImage: drighelli/BIRSBIO2020.seqFISH.SpatialAnalysis:latest
+DockerImage: drighelli/birsbio2020_seqfish_spatialanalysis:latest
